@@ -27,7 +27,7 @@ python tools/train.py configs/faster_rcnn/roitransformer_r50_fpn_1x_coco.py
 ### Citation
 
 ```
-@inproceedings{liu2020towards,
+@inproceedings{liang2022excavating,
   title={Excavating RoI Attention for Underwater Object Detection},
   author={Liang, Xvtao and Song, Pinhao},
   booktitle={2022 IEEE International Conference on Image Processing (ICIP)},
@@ -35,5 +35,3 @@ python tools/train.py configs/faster_rcnn/roitransformer_r50_fpn_1x_coco.py
   organization={IEEE}
 }
 ```
-
-### 
