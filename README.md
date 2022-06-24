@@ -10,7 +10,7 @@ https://drive.google.com/file/d/1avyB-ht3VxNERHpAwNTuBRFOxiXDMczI/view?usp=shari
 It is recommended to symlink the dataset file to the root.
 
 ```
-FERNet
+Excavating-RoI-Attention-for-Underwater-Object-Detection
 ├── data
 │   ├── UTDAC2020
 │   │   ├── train2017
