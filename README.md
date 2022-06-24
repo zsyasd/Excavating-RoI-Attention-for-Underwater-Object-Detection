@@ -24,3 +24,16 @@ FERNet
 python tools/train.py configs/faster_rcnn/roitransformer_r50_fpn_1x_coco.py
 ```
 
+### Citation
+
+```
+@inproceedings{liu2020towards,
+  title={Excavating RoI Attention for Underwater Object Detection},
+  author={Liang, Xvtao and Song, Pinhao},
+  booktitle={2022 IEEE International Conference on Image Processing (ICIP)},
+  year={2022},
+  organization={IEEE}
+}
+```
+
+### 
