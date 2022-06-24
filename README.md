@@ -3,7 +3,7 @@ This paper was accepted by ICIP2022, code will be released soon
 
 ### Dataset
 
-Since the authors of FERNet haven't open source the UWD dataset, we use dataset UTDAC2020, the download link of which is shown as follows.
+We use dataset UTDAC2020, the download link of which is shown as follows.
 
 https://drive.google.com/file/d/1avyB-ht3VxNERHpAwNTuBRFOxiXDMczI/view?usp=sharing
 
