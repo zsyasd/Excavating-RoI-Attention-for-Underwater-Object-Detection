@@ -6,13 +6,13 @@ This paper was accepted by ICIP2022 ([arXiv:2206.12128](https://arxiv.org/abs/22
 
 Python == 3.7.16
 
-pyTorch == 1.7.0
+PyTorch == 1.7.0
 
-mmdetection == 2.20.0
+MMDetection == 2.20.0
 
-mmcv == 1.4.6
+MMCV == 1.4.6
 
-numpy == 1.21.2
+Numpy == 1.21.2
 
 ## Installation
 
