@@ -50,9 +50,9 @@ PASCAL VOC: http://host.robots.ox.ac.uk/pascal/VOC/
 
 ## Train
 
+If you want to use Pascal VOC or COCO dataset, lease change the dataset type under the `roitransformer_r50_fpn_1x_coco.py` file.
+
 ```
-# If you want to use Pascal VOC or COCO dataset
-# please change the dataset type under the roitransformer_r50_fpn_1x_coco.py file.
 $ python tools/train.py configs/faster_rcnn/roitransformer_r50_fpn_1x_coco.py
 ```
 
