@@ -1,7 +1,22 @@
 # Excavating-RoI-Attention-for-Underwater-Object-Detection
+
 This paper was accepted by ICIP2022 ([arXiv:2206.12128](https://arxiv.org/abs/2206.12128)). 
 
-The code will be released soon.
+### Dependencies
+
+Python == 3.7.16
+
+pyTorch == 1.7.0
+
+mmdetection == 2.20.0
+
+mmcv == 1.4.6
+
+numpy == 1.21.2
+
+### Installation
+
+The basic installation follows with [mmdetection](https://github.com/open-mmlab/mmdetection)[document](https://mmdetection.readthedocs.io/en/latest/). It is recommended to use manual installation.
 
 ### Dataset
 
@@ -9,7 +24,14 @@ We use dataset UTDAC2020, the download link of which is shown as follows.
 
 https://drive.google.com/file/d/1avyB-ht3VxNERHpAwNTuBRFOxiXDMczI/view?usp=sharing
 
-It is recommended to symlink the dataset file to the root.
+After downloading all datasets, create UTDAC2020 document.
+
+```
+$ cd data
+$ mkdir S-UODAC2020
+```
+
+It is recommended to symlink the dataset root to `$data`.
 
 ```
 Excavating-RoI-Attention-for-Underwater-Object-Detection
@@ -20,9 +42,16 @@ Excavating-RoI-Attention-for-Underwater-Object-Detection
 │   │   ├── annotations
 ```
 
+This model is also applicable to Pascal VOC and COCO datasets.
+
+COCO: https://cocodataset.org/#download
+
+PASCAL VOC: http://host.robots.ox.ac.uk/pascal/VOC/
+
 ### Train
 
 ```
+# If you want to use Pascal VOC or COCO dataset, please change the dataset type under the roitransformer_r50_fpn_1x_coco.py file.
 python tools/train.py configs/faster_rcnn/roitransformer_r50_fpn_1x_coco.py
 ```
 
@@ -37,3 +66,7 @@ python tools/train.py configs/faster_rcnn/roitransformer_r50_fpn_1x_coco.py
   organization={IEEE}
 }
 ```
+
+### Acknowledgement
+
+Thanks MMDetection team for the wonderful open source project!
