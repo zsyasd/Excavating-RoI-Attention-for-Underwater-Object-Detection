@@ -2,7 +2,7 @@
 
 This paper was accepted by ICIP2022 ([arXiv:2206.12128](https://arxiv.org/abs/2206.12128)). 
 
-### Dependencies
+## Dependencies
 
 Python == 3.7.16
 
@@ -14,11 +14,11 @@ mmcv == 1.4.6
 
 numpy == 1.21.2
 
-### Installation
+## Installation
 
 The basic installation follows with [[mmdetection]](https://github.com/open-mmlab/mmdetection) [[document]](https://mmdetection.readthedocs.io/en/latest/). It is recommended to use manual installation.
 
-### Dataset
+## Dataset
 
 We use dataset UTDAC2020, the download link of which is shown as follows.
 
@@ -48,14 +48,20 @@ COCO: https://cocodataset.org/#download
 
 PASCAL VOC: http://host.robots.ox.ac.uk/pascal/VOC/
 
-### Train
+## Train
 
 ```
 # If you want to use Pascal VOC or COCO dataset, please change the dataset type under the roitransformer_r50_fpn_1x_coco.py file.
-python tools/train.py configs/faster_rcnn/roitransformer_r50_fpn_1x_coco.py
+$ python tools/train.py configs/faster_rcnn/roitransformer_r50_fpn_1x_coco.py
 ```
 
-### Citation
+## Test
+
+```
+$ python tools/test.py configs/faster_rcnn/roitransformer_r50_fpn_1x_coco.py <path/to/checkpoints>
+```
+
+## Citation
 
 ```
 @inproceedings{liang2022excavating,
