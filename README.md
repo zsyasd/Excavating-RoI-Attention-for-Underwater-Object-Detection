@@ -16,7 +16,7 @@ numpy == 1.21.2
 
 ### Installation
 
-The basic installation follows with [mmdetection](https://github.com/open-mmlab/mmdetection)[document](https://mmdetection.readthedocs.io/en/latest/). It is recommended to use manual installation.
+The basic installation follows with [[mmdetection]](https://github.com/open-mmlab/mmdetection) [[document]](https://mmdetection.readthedocs.io/en/latest/). It is recommended to use manual installation.
 
 ### Dataset
 
