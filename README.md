@@ -73,6 +73,6 @@ $ python tools/test.py configs/faster_rcnn/roitransformer_r50_fpn_1x_coco.py <pa
 }
 ```
 
-### Acknowledgement
+## Acknowledgement
 
 Thanks MMDetection team for the wonderful open source project!
