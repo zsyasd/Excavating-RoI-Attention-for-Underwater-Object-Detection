@@ -1,5 +1,7 @@
 # Excavating-RoI-Attention-for-Underwater-Object-Detection
-This paper was accepted by ICIP2022, code will be released soon
+This paper was accepted by ICIP2022 ([arXiv:2206.12128](https://arxiv.org/abs/2206.12128)). 
+
+The code will be released soon.
 
 ### Dataset
 
