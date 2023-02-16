@@ -48,6 +48,8 @@ COCO: https://cocodataset.org/#download
 
 PASCAL VOC: http://host.robots.ox.ac.uk/pascal/VOC/
 
+Other underwater dataset: https://github.com/mousecpn/Collection-of-Underwater-Object-Detection-Dataset
+
 ## Train
 
 If you want to use Pascal VOC or COCO dataset, lease change the dataset type under the `roitransformer_r50_fpn_1x_coco.py` file.
